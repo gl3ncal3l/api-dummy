@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 18",
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "_version": "2.0.0",
+    "compilerOptions": {
+        "lib": ["es2023"],
+        "baseUrl": "./",
+        "module": "commonjs",
+        "target": "es2022",
+        "resolveJsonModule": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}

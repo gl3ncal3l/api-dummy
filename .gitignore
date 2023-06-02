@@ -1,0 +1,15 @@
+# Node Modules & Dist
+/node_modules
+/dist
+
+# Environment
+.env
+
+# Visual Studio / Code
+/.vs
+/vs
+/vscode
+/.vscode
+
+# Reports
+/reports/*
